@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Cairo&family=Chakra+Petch:ital,wght@1,300;1,400&family=Finlandica&family=Inter:wght@400;700&family=Lexend+Deca&family=Macondo&family=Montserrat:wght@700&family=Nunito+Sans:wght@300;600;800&family=Nunito:ital,wght@1,200;1,300&family=Orbitron&family=Roboto:wght@300&family=Tapestry&family=Teko&family=Titillium+Web:ital,wght@1,300&family=Yanone+Kaffeesatz:wght@200&display=swap');
+*{
+  font-family: 'Orbitron', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  transition: all .2s linear;
+}
+a {
+  color: #00B7FF;
+  padding: 1rem;
+}
+header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid gainsboro;
+  border-top: 2px solid gainsboro;
+  border-radius: 1rem;
+}
+nav{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  color: rgb(12, 52, 103);
+  font-size: 1rem;
+}
+.nav:hover{
+  color: coral;
+}
+.main--part--description{
+  width: 100%;
+  height:100vh;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1591076787947-aaa4dec435d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+}
+.slogan{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  animation: fadeInDown 2s linear;
+}
+h1{
+  font-size: 4rem;
+}
+.slogan > p{
+  font-size: 2rem;
+}
+.main--part--contact{
+  width: 100%;
+  height: 80vh;
+  padding: 1rem 10rem;
+}
+.main--part--Services{
+  width: 100%;
+  height: 80vh;
+  padding: 1rem 10rem;
+  font-weight: bold;
+}
+h2{
+  color: rgb(12, 52, 103);
+}
+footer{
+  width: 100%;
+  height: 200px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(12, 52, 103);
+  box-shadow: 0 0 10px gainsboro;
+}
+.footer--content{
+  text-align: center;
+  border-top: 3px solid coral;
+  font-size: 1.1rem;
+  color: white;
+}
+
+
